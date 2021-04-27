@@ -6,7 +6,7 @@ import CloseIcon from '@material-ui/icons/Close';
 import HeaderMenus from '../../components/HeaderMenus';
 
 export default function Appbar1(props) {
-	const [isMobileMenuOpen, handleMobileMenuOpen] = React.useState(true);
+	const [isMobileMenuOpen, handleMobileMenuOpen] = React.useState(false);
 	const classes = useStyles();
 	return (
 		<AppBar position="fixed" className={classes.appbar}>
