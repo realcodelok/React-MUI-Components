@@ -6,14 +6,13 @@ const Theme = createMuiTheme({
 			white: '#fff',
 		},
 		primary: {
-			light: '#7986cb',
-			main: '#3f51b5',
-			dark: '#303f9f',
-			contrastText: '#fff',
+			light: '#dc505208',
+			main: '#dc5052',
+			dark: '#dc5052',
 		},
 		secondary: {
 			light: '#ff4081',
-			main: '#f50057',
+			main: '#090b35',
 			dark: '#c51162',
 		},
 		error: {
@@ -48,8 +47,9 @@ const Theme = createMuiTheme({
 			default: '#fafafa',
 		},
 		action: {
-			active: `rgba(0, 0, 0, 0.54)`,
-			hover: `rgba(0, 0, 0, 0.04)`,
+			active: `rgba(255, 255, 255, 1)`,
+			hover: `rgba(255, 255, 255, .8)`,
+			hover1: '#f0c6c754',
 			hoverOpacity: 0.04,
 			selected: `rgba(0, 0, 0, 0.08)`,
 			selectedOpacity: 0.08,
@@ -62,6 +62,9 @@ const Theme = createMuiTheme({
 		},
 	},
 	typography: {
+		fontSize: 12,
+		fontFamily: "'Poppins Medium', sans-serif",
+		letterSpacing: '0.06rem',
 		robotoBlack: "'Roboto Black', sans-serif",
 		robotoBold: "'Roboto Bold', sans-serif",
 		robotoLight: "'Roboto Light', sans-serif",
@@ -78,6 +81,9 @@ const Theme = createMuiTheme({
 		faturaFontBold: "'Nunito Bold', sans-serif",
 		montserratFontBold: "'Montserrat', sans-serif",
 		baskervilleFont: "'Libre Baskerville', serif",
+	},
+	dimensions: {
+		headerHeight: '65px',
 	},
 });
 
